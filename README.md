@@ -11,6 +11,8 @@ Custom CNC Sprayer running Mach3.
 | Quadrant 3     | Test program    | ⛔     |
 | Quadrant 4     | Working program | ⛔     |
 | Quadrant 1 & 2 | Working program | ⛔     |
+| Quadrant 1 & 3 | Working program | ⛔     |
+| Quadrant 2 & 4 | Working program | ⛔     |
 | Quadrant 3 & 4 | Working program | ⛔     |
 | Quadrant All   | Working program | ⛔     |
 
