@@ -24,3 +24,9 @@ Custom CNC Sprayer running Mach3.
 ## Mach3
 
 - Find Mach3 at [machsupport.com](https://www.machsupport.com/software/mach3/)
+
+### Default Work Zero
+
+- Y12
+- X0
+- Z0
