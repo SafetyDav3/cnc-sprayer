@@ -4,17 +4,17 @@ Custom CNC Sprayer running Mach3.
 
 ## Programs
 
-| Program        | Description     | Status |
-| :------------- | :-------------- | :----- |
-| Quadrant 1     | Test program    | ⛔     |
-| Quadrant 2     | Working program | ⛔     |
-| Quadrant 3     | Test program    | ⛔     |
-| Quadrant 4     | Working program | ⛔     |
-| Quadrant 1 & 2 | Working program | ⛔     |
-| Quadrant 1 & 3 | Working program | ⛔     |
-| Quadrant 2 & 4 | Working program | ⛔     |
-| Quadrant 3 & 4 | Working program | ⛔     |
-| Quadrant All   | Working program | ⛔     |
+| Program        | Description     | Status | Progress    |
+| :------------- | :-------------- | :----- | :---------- |
+| Quadrant 1     | in progress     | ⛔     | Started     |
+| Quadrant 2     | TODO            | ⛔     | Not started |
+| Quadrant 3     | TODO            | ⛔     | Not started |
+| Quadrant 4     | Working program | ⛔     | Not started |
+| Quadrant 1 & 2 | Working program | ⛔     | Not started |
+| Quadrant 1 & 3 | Working program | ⛔     | Not started |
+| Quadrant 2 & 4 | Working program | ⛔     | Not started |
+| Quadrant 3 & 4 | Working program | ⛔     | Not started |
+| Quadrant All   | Working program | ⛔     | Not started |
 
 ## Mach3 G-code Information
 
