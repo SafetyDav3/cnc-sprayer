@@ -9,6 +9,7 @@
 (Test for setup)
 (Head of program)
 G94 (Set the machine to units per minute)
+G20 (Set machine to inches)
 
 (Body of program)
 G00 Z-0 (Move Z-axis to home position)
