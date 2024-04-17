@@ -7,6 +7,10 @@
 ;   M30 = End and reset program
 
 (Test for setup)
+(Head of program)
+G94 (Set the machine to units per minute)
+
+(Body of program)
 G00 Z-0 (Move Z-axis to home position)
 
 (End of program)
