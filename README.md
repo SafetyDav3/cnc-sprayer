@@ -27,6 +27,7 @@ Custom CNC Sprayer running Mach3.
 `G01` = Interpolation move </br>
 `G94` = Set the machine to units per minute </br>
 `G20` = Set machine to inches </br>
+`G28` = Operator home </br>
 `F###` = Feedrate followed by desired feedrate 'F500' </br>
 `M3` = Sprayer off </br>
 `M5` = Sprayer on </br>

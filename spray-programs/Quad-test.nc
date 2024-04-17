@@ -15,6 +15,5 @@ G20 (Set machine to inches)
 G00 Z-0 (Move Z-axis to home position)
 
 (End of program)
-G00 Z0 (Return to home Z-axis)
-X0 Y0 (Return to home X-axis and Y-axis)
+G28 X0 Y12 Z0 F250 (Return to the operator work position)
 M30 (Close program and reset)
