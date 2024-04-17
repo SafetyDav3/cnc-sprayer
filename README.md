@@ -16,6 +16,10 @@ Custom CNC Sprayer running Mach3.
 | Quadrant 3 & 4 | Working program | ⛔     | Not started |
 | Quadrant All   | Working program | ⛔     | Not started |
 
+## TODO: Miscellaneous
+
+- Move the starting position "Home" as the machine has been rotated 180 degrees
+
 ## Mach3 G-code Information
 
 - [PDF format](https://machmotion.com/documentation/Software/Mach3/Mach3%20G-Code%20Manual.pdf) G-Code guide for Mach3
@@ -44,6 +48,7 @@ Custom CNC Sprayer running Mach3.
 - Find Mach3 at [MachSupport.com](https://www.machsupport.com/software/mach3/)
 
 ---
+
 ---
 
 Copyright©️ 2024 </br>
