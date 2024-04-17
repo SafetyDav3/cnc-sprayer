@@ -23,19 +23,25 @@ Custom CNC Sprayer running Mach3.
 
 ## G-Code Reference
 
-    G00 = Rapid move
-    G01 = Interpolation move
-    F### = Feedrate followed by desired feedrate 'F500'
-    M3 =  Sprayer off
-    M5 = Sprayer on
-    M30 = End and reset program
-
-## Mach3
-
-- Find Mach3 at [MachSupport.com](https://www.machsupport.com/software/mach3/)
+`G00` = Rapid move </br>
+`G01` = Interpolation move </br>
+`F###` = Feedrate followed by desired feedrate 'F500' </br>
+`M3` = Sprayer off </br>
+`M5` = Sprayer on </br>
+`M30` = End and reset program </br>
 
 ### Default Work Zero
 
 - Y12
 - X0
 - Z0
+
+## Mach3
+
+- Find Mach3 at [MachSupport.com](https://www.machsupport.com/software/mach3/)
+
+---
+
+Copyright©️ 2024 </br>
+SafetyDav3 </br>
+All Rights Reserved. </br>
