@@ -5,7 +5,7 @@
 (  DESCRIPTION THIS MACHINE HAS XYZ AXIS ON THE HEAD)
 (T1 D=152.4 CR=0. - ZMIN=-12.7 - FACE MILL)
 G90 G94 G91.1 G40 G49 G17 (Set work coordinates to Absolute && Set machine to units-per-minute && Set Arc-Mode to incremental [G90.1 for Absolute] && Turn off Cutter compensation && Set tool offset to NONE && Select XY-plane)
-G21 (Set units to millimeters [G20 to set units to inches])
+G20 (Set units to Inches [G21 to set units to Millimeters])
 G28 G91 Z0. (Return home && Set work coordinates to Incremental && Move Z-axis to zero position)
 G90 (Set work coordinates to Absolute)
 
