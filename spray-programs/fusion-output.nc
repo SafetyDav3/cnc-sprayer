@@ -10,8 +10,8 @@ G28 G91 Z0.
 G90
 
 (FACE1)
-T1 M6
-S5000 M3
+T1 M6 (Tool one && Tool change)
+S5000 M3 (Start Spindle at 5000rpm && Rotate spindle clockwise [M4 for counter-clockwise])
 G17 G90 G94
 G54
 G0 X1013.311 Y-462.124
