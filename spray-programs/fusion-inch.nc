@@ -1,5 +1,9 @@
-(1002)
-(T1 D=6. CR=0. - ZMIN=-0.04 - FACE MILL)
+(Spray Program)
+(Face-mill operation conversion)
+(   SafetyDav3 Automation)
+(   3-Axis CNC Sprayer running Mach3)
+(   6 inch spray pattern with a 3 inch step-over)
+
 G90 G94 G91.1 G40 G49 G17 (Set work coordinates to Absolute && Set machine to units-per-minute && Set Arc-Mode to incremental [G90.1 for Absolute] && Turn off Cutter compensation && Set tool offset to NONE && Select XY-plane)
 G20 (Set units to Inches [G21 to set units to Millimeters])
 G28 G91 Z0. (Return home && Set work coordinates to Incremental && Move Z-axis to zero position)
