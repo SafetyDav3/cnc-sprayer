@@ -43,9 +43,9 @@ G0 Z0.6 (Move to Z=0.6)
 G17 (Select XY-plane)
 
 (End program)
-M5
-G28 G91 Z0.
-G90
-G28 G91 X0. Y0.
-G90
-M30
+M5 (End spraying)
+G28 G91 Z0. (Return to Z-axis home)
+G90 (Set work coordinates to absolute)
+G28 G91 X0. Y0. (Return to X,Y-axis home)
+G90 (Set work coordinates to absolute)
+M30 (Close program and reset)
