@@ -1,15 +1,17 @@
 (1002)
 (T1 D=6. CR=0. - ZMIN=-0.04 - FACE MILL)
-G90 G94 G91.1 G40 G49 G17
-G20
-G28 G91 Z0.
-G90
+G90 G94 G91.1 G40 G49 G17 (Set work coordinates to Absolute && Set machine to units-per-minute && Set Arc-Mode to incremental [G90.1 for Absolute] && Turn off Cutter compensation && Set tool offset to NONE && Select XY-plane)
+G20 (Set units to Inches [G21 to set units to Millimeters])
+G28 G91 Z0. (Return home && Set work coordinates to Incremental && Move Z-axis to zero position)
+G90 (Set work coordinates to Absolute)
 
 (FACE1)
-T1 M6
-S5000 M3
-G17 G90 G94
-G54
+T1 M6 (Tool one && Tool change)
+S5000 M3 (Start Spindle at 5000rpm && Rotate spindle clockwise [M4 for counter-clockwise])
+G17 G90 G94 (Select XY-plane && Set work coordinates to Absolute [G91 is incremental] && Set machine to units-per-minute)
+G54 (Select work offset #1)
+
+(Program run)
 G0 X39.9 Y-16.9507
 G43 Z0.6 H1
 G0 Z0.56
