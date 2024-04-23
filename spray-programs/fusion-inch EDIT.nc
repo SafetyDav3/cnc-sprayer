@@ -16,30 +16,30 @@ G17 G90 G94 (Select XY-plane && Set work coordinates to Absolute [G91 is increme
 G54 (Select work offset #1)
 
 (Program run)
-G0 X0 Y16 Z-6 (Rapid move)
+G0 X0 Y16 Z-0 (Rapid move)
 G43 Z0 H1 (Set tool offset to 0 on tool #1)
-G0 Z0.56 (Rapid move to Z-axis height)
-G18 G3 X39.3 Z-0.04 I-0.6 K0. F40. (Arc from current position C=39.3 X,Y to Z=-0.04, I is the radius of the arc, K is the ending angle.)
-G1 X39.0004 (Move to X=39.0004)
-G1 X-39.0004 (Move to X=-39.0004)
-G17 G2 Y-12.9433 I0. J2.0037 (Arc from current position C=Y=-12.9433 to I0, J is the ending angle.)
-G1 X39.0004 (Move to X=39.0004)
-G3 Y-8.936 I0. J2.0037 (Arc I0 to J2.0037)
-G1 X-39.0004 (Move to X=-39.0004)
-G2 Y-4.9287 I0. J2.0037 (Arc I0 to J2.0037)
-G1 X39.0004 (Move to X=39.0004)
-G3 Y-0.9213 I0. J2.0037 (Arc I0 to J2.0037)
-G1 X-39.0004 (Move to X=-39.0004)
-G2 Y3.086 I0. J2.0037 (Arc I0 to J2.0037)
-G1 X39.0004 (Move to X=39.0004)
-G3 Y7.0933 I0. J2.0037 (Arc I0 to J2.0037)
-G1 X-39.0004 (Move to X=-39.0004)
-G2 Y11.1007 I0. J2.0037 (Arc I0 to J2.0037)
-G1 X39.0004 (Move to X=39.0004)
-G3 Y15.108 I0. J2.0037 (Arc I0 to J2.0037)
-G1 X-39.0004 (Move to X=-39.0004)
-G18 G3 X-39.6004 Z0.56 I0. K0.6 (Arc from current position C=X=-39.6004 to Z=0.56, I is the radius of the arc, K is the ending angle.)
-G0 Z0.6 (Move to Z=0.6)
+G0 Z-6 (Rapid move to Z-axis height)
+G18 G3 Y130 Z0 J-0.6 K0. F200. (Arc from current position C=39.3 X,Y to Z=-0.04, I is the radius of the arc, K is the ending angle.)
+G1 Y130
+G1 Y-130
+G17 G2 X-12.9433 J0. I2.0037
+G1 Y120
+G3 X-8.936 J0. I2.0037
+G1 Y-120
+G2 X-4.9287 J0. I2.0037
+G1 Y120
+G3 X-0.9213 J0. I2.0037
+G1 Y-120
+G2 X3.086 J0. I2.0037
+G1 Y120
+G3 X7.0933 J0. I2.0037
+G1 Y-120
+G2 X11.1007 J0. I2.0037
+G1 Y120
+G3 X15.108 J0. I2.0037
+G1 Y-120
+G18 G3 Y-120 Z0 J0. K0
+G0 Z0
 G17 (Select XY-plane)
 
 (End program)
