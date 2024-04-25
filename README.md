@@ -19,6 +19,7 @@ Custom CNC Sprayer running Mach3.
 ## TODO: Miscellaneous
 
 - Move the starting position "Home" as the machine has been rotated 180 degrees
+- Output new coordinates after each move
 
 ## Mach3 G-code Information
 
