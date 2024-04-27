@@ -6,10 +6,10 @@ Custom CNC Sprayer running Mach3.
 
 | Program       | Description     | Status | Progress      |
 | :------------ | :-------------- | :----- | :------------ |
-| Quadrant A    | Working program | ✅     | Complete      |
-| Quadrant B    | Working program | ✅     | Complete      |
-| Quadrant C    | Working program | ✅     | Complete      |
-| Quadrant D    | Working program | ✅     | Complete      |
+| Quadrant A    | Working program | ✅     | Processing V2 |
+| Quadrant B    | Working program | ✅     | Processing V2 |
+| Quadrant C    | Working program | ✅     | Processing V2 |
+| Quadrant D    | Working program | ✅     | Processing V2 |
 | Quadrant AB   | Working program | ✅     | Processing V2 |
 | Quadrant AC   | Working program | ✅     | Version 2     |
 | Quadrant BD   | Working program | ✅     | Processing V2 |
