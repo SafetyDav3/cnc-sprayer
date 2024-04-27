@@ -1,13 +1,12 @@
-(1008)
-(T1 D=2. CR=0.125 - ZMIN=5.99 - FACE MILL)
+(Spray program to cover quadrant A)
 G90 G94 G91.1 G40 G49 G17
 G20
 G28 G91 Z0.
 G90
 
-(FACE2)
-T1
-S5000 M5
+(QUAD-A)
+T1 (Select Sprayer)
+M5 (Ensure sprayer is OFF)
 G17 G90 G94
 G54
 G0 X21.5943 Y84.
