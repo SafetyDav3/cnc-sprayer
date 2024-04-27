@@ -4,17 +4,17 @@ Custom CNC Sprayer running Mach3.
 
 ## Programs
 
-| Program       | Description     | Status | Progress |
-| :------------ | :-------------- | :----- | :------- |
-| Quadrant A    | Working program | ✅     | Complete |
-| Quadrant B    | Working program | ✅     | Complete |
-| Quadrant C    | Working program | ✅     | Complete |
-| Quadrant D    | Working program | ✅     | Complete |
-| Quadrant AB   | Working program | ✅     | Complete |
-| Quadrant AC   | Working program | ✅     | Complete |
-| Quadrant BD   | Working program | ✅     | Complete |
-| Quadrant CD   | Working program | ✅     | Complete |
-| Quadrant ABCD | Working program | ✅     | Complete |
+| Program       | Description     | Status | Progress  |
+| :------------ | :-------------- | :----- | :-------- |
+| Quadrant A    | Working program | ✅     | Complete  |
+| Quadrant B    | Working program | ✅     | Complete  |
+| Quadrant C    | Working program | ✅     | Complete  |
+| Quadrant D    | Working program | ✅     | Complete  |
+| Quadrant AB   | Working program | ✅     | Complete  |
+| Quadrant AC   | Working program | ✅     | Version 2 |
+| Quadrant BD   | Working program | ✅     | Complete  |
+| Quadrant CD   | Working program | ✅     | Complete  |
+| Quadrant ABCD | Working program | ✅     | Complete  |
 
 ## TODO: Miscellaneous
 
@@ -28,21 +28,34 @@ Custom CNC Sprayer running Mach3.
 
 ## G-Code Reference
 
-`G00` = Rapid move </br>
-`G01` = Interpolation move </br>
-`G94` = Set the machine to units per minute </br>
+- G-Code commands
+
+`G0` = Rapid move </br>
+`G1` = Interpolation move </br>
+`G2` = Clockwise arc </br>
+`G3` = Counterclockwise arc </br>
+`G17` = Begin/End 'Canned Cycle' </br>
+`G19` = Ramp operation </br>
 `G20` = Set machine to inches </br>
 `G28` = Operator home </br>
-`F###` = Feedrate followed by desired feedrate 'F500' </br>
+`G94` = Set the machine to units per minute </br>
+
+- M-Code commands
+
 `M3` = Sprayer off </br>
 `M5` = Sprayer on </br>
 `M30` = End and reset program </br>
 
+- Other commands
+
+`F###` = Feedrate followed by desired feedrate 'F500' </br>
+`T#` = Select tool 'T1' </br>
+
 ### Default Work Zero
 
-- Y12
-- X0
-- Z0
+- Y0.125
+- X0.125
+- Z-0.125
 
 ## Mach3
 
