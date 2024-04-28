@@ -1,6 +1,6 @@
 (MAKE SURE TO SET Z-AXIS!)
 
-(Spray program for QUAD-AC)
+(Spray program for QUAD-AB)
 (6 inch spray height)
 (2 inch step-over)
 G90 G94 G91.1 G40 G49 G17
