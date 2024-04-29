@@ -6,15 +6,15 @@ Custom CNC Sprayer running Mach3.
 
 | Program       | Description     | Status | Progress  | Real World |
 | :------------ | :-------------- | :----- | :-------- | :--------- |
-| Quadrant A    | Working program | ✅     | Version 2 | Succesful  |
-| Quadrant B    | Working program | ✅     | Version 2 | Succesful  |
-| Quadrant C    | Working program | ✅     | Version 2 | Succesful  |
-| Quadrant D    | Working program | ✅     | Version 2 | Succesful  |
-| Quadrant AB   | Working program | ✅     | Version 2 | Succesful  |
-| Quadrant AC   | Working program | ✅     | Version 2 | Succesful  |
-| Quadrant BD   | Working program | ✅     | Version 2 | Succesful  |
-| Quadrant CD   | Working program | ✅     | Version 2 | Succesful  |
-| Quadrant ABCD | Working program | ✅     | Version 2 | Succesful  |
+| Quadrant A    | Working program | ✅     | Version 2 | Successful |
+| Quadrant B    | Working program | ✅     | Version 2 | Successful |
+| Quadrant C    | Working program | ✅     | Version 2 | Successful |
+| Quadrant D    | Working program | ✅     | Version 2 | Successful |
+| Quadrant AB   | Working program | ✅     | Version 2 | Successful |
+| Quadrant AC   | Working program | ✅     | Version 2 | Successful |
+| Quadrant BD   | Working program | ✅     | Version 2 | Successful |
+| Quadrant CD   | Working program | ✅     | Version 2 | Successful |
+| Quadrant ABCD | Working program | ✅     | Version 2 | Successful |
 
 ## TODO: Miscellaneous
 
