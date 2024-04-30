@@ -51,12 +51,6 @@ Custom CNC Sprayer running Mach3.
 `F###` = Feedrate followed by desired feedrate 'F500' </br>
 `T#` = Select tool 'T1' </br>
 
-### Default Work Zero
-
-- Y0.125
-- X0.125
-- Z-0.125
-
 ## Mach3
 
 - Find Mach3 at [MachSupport.com](https://www.machsupport.com/software/mach3/)
@@ -65,7 +59,12 @@ Custom CNC Sprayer running Mach3.
 
 ---
 
-Copyright©️ 2024 </br>
-SafetyDav3 </br>
-LaserFac3 </br>
-All Rights Reserved. </br>
+<div align="center">
+<table>
+<tbody>
+<td align="center">
+<img width="2000" height="0"><br><sup><sub>Copyright©️ 2024 - SafetyDav3, LaserFac3, FileDav3 - All Rights Reserved.</sub></sup><br>
+</td>
+</tbody>
+</table>
+</div>
