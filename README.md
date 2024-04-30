@@ -57,13 +57,14 @@ Custom CNC Sprayer running Mach3.
 
 ---
 
----
-
 <div align="center">
 <table>
 <tbody>
 <td align="center">
-<img width="2000" height="0"><br><sup><sub>Copyright©️ 2024 - SafetyDav3, LaserFac3, FileDav3 - All Rights Reserved.</sub></sup><br>
+<img width="2000" height="0">
+<br>
+<sup><sub>Copyright©️ 2024 - SafetyDav3, LaserFac3, FileDav3 - All Rights Reserved.</sub></sup>
+<br>
 </td>
 </tbody>
 </table>
