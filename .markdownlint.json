@@ -1,0 +1,15 @@
+{
+  "MD033": {
+    "allowed_elements": [
+      "nobr",
+      "sup",
+      "sub",
+      "table",
+      "tbody",
+      "td",
+      "img",
+      "br",
+      "div"
+    ]
+  }
+}

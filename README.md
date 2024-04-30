@@ -23,8 +23,10 @@ Custom CNC Sprayer running Mach3.
 
 ## Mach3 G-code Information
 
-- [PDF format](https://machmotion.com/documentation/Software/Mach3/Mach3%20G-Code%20Manual.pdf) G-Code guide for Mach3
-- [Cheat Sheet](https://www.cnczone.com/forums/attachments/2/4/5/7/8/2/171224.attach) for quick reference
+- [PDF format](https://machmotion.com/documentation/Software/Mach3/Mach3%20G-Code%20Manual.pdf)
+  G-Code guide for Mach3
+- [Cheat Sheet](https://www.cnczone.com/forums/attachments/2/4/5/7/8/2/171224.attach)
+  for quick reference
 
 ## G-Code Reference
 
@@ -58,14 +60,15 @@ Custom CNC Sprayer running Mach3.
 ---
 
 <div align="center">
-<table>
-<tbody>
-<td align="center">
-<img width="2000" height="0">
-<br>
-<sup><sub>Copyright©️ 2024 - SafetyDav3, LaserFac3, FileDav3 - All Rights Reserved.</sub></sup>
-<br>
-</td>
-</tbody>
-</table>
+  <table>
+      <tbody>
+          <td align="center">
+              <img width="2000" height="0" alt="Copyright 2024 SafetyDave">
+                </br>
+                  <sup><sub>Copyright©️ 2024 - SafetyDav3, LaserFac3, FileDav3 </br>
+                   All Rights Reserved.</sub></sup>
+                </br>
+          </td>
+      </tbody>
+  </table>
 </div>
